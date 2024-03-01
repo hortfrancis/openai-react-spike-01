@@ -1,6 +1,6 @@
 # openai-react-spike-01
 
-Node [spike](https://en.wikipedia.org/wiki/Spike_(software_development))https://en.wikipedia.org/wiki/Spike_(software_development) to explore creating a chatbot using OpenAI's GPT language model. 
+Node [spike](https://en.wikipedia.org/wiki/Spike_(software_development)) to explore creating a chatbot using OpenAI's GPT language model (currently 3.5). 
 
 Project consists of: 
 - Express app (server)
