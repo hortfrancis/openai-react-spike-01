@@ -2,6 +2,8 @@ const express = require('express');
 const cors = require('cors');
 const logger = require('./middleware/logger');
 
+const openaiController = require('./controllers/openai');
+
 const app = express();
 
 app.use(cors());
@@ -14,5 +16,7 @@ app.get(
         res.send('Hello World');
     }
 );
+
+app.post('/openai/generic', openaiController.generic);
 
 module.exports = app;
